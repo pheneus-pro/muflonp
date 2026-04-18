@@ -19,7 +19,8 @@
     <li><a href="#home">Home</a></li>
     <li><a href="#news">News</a></li>
     <li><a href="#onas">O nás</a></li>
-    <li><a href="#chata">Chata Info</a></li>
+    <li><a href="#chata">HiStorky</a></li>
+    <li><a href="#chata-roky">Chata</a></li>
     <li><a href="#kontakt">Kontakt</a></li>
   </ul>
   <button class="nav-hamburger" aria-label="Menu" aria-expanded="false">
@@ -31,26 +32,36 @@
 <!-- ── HERO ── -->
 <section id="home">
   <div class="hero-parallax"></div>
-  <svg class="hero-mountains" viewBox="0 0 1440 220" preserveAspectRatio="none" fill="white" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0 220 L180 60 L340 150 L520 20 L700 130 L880 50 L1060 160 L1240 40 L1440 110 L1440 220 Z"/>
-    <path d="M0 220 L120 100 L260 180 L440 80 L600 160 L760 70 L920 155 L1100 85 L1280 150 L1440 90 L1440 220 Z" opacity="0.5"/>
-  </svg>
-
-  <div class="hero-badge">Od roku 2019 &bull; Slovensko</div>
 
   <h1 class="hero-title">
     Víta Vás<br>
     <span class="highlight">Muflon</span> Production
   </h1>
 
-  <p class="hero-sub">
-    Coška vyrucilo z miešačky <span class="emoji">😄</span><br>
-    Váš obľúbený kolektív priateľov v akcii.
-  </p>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <div class="hero-stat-num">2006</div>
+      <div class="hero-stat-label">Rok vzniku</div>
+    </div>
+    <div class="hero-stat-divider"></div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">17</div>
+      <div class="hero-stat-label">Počet chát</div>
+    </div>
+    <div class="hero-stat-divider"></div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">100%</div>
+      <div class="hero-stat-label">Zábavy</div>
+    </div>
+    <div class="hero-stat-divider"></div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">∞</div>
+      <div class="hero-stat-label">Spomienok</div>
+    </div>
+  </div>
 
   <div class="hero-btns">
-    <a class="btn" href="#kontakt">RSVP</a>
-    <a class="btn btn-outline" href="#onas">tu je vecej info</a>
+    <a class="btn btn-outline" href="#news">👇</a>
   </div>
 </section>
 
@@ -107,6 +118,21 @@
         </p>
         <a class="btn" href="#kontakt">Pridaj sa k nám</a>
 
+        <div class="about-timeline">
+          <div class="timeline-item">
+            <div class="timeline-year">2004</div>
+            <div class="timeline-text">Začiatok štúdia na SPŠE v Prešove</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2006</div>
+            <div class="timeline-text">Vznik Muflon Production</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2007</div>
+            <div class="timeline-text">Maturita &amp; prvá chata</div>
+          </div>
+        </div>
+
         <div class="about-stats">
           <div class="stat">
             <div class="stat-num">2019</div>
@@ -132,57 +158,210 @@
   </div>
 </section>
 
-<!-- ── CHATA INFO ── -->
+<!-- ── HISTORKY ── -->
 <section id="chata">
   <div class="container">
-    <div class="section-label">Chata Info</div>
-    <h2 class="section-title">Naša základňa</h2>
-    <p class="section-desc">Všetko čo potrebuješ vedieť o muflonárni.</p>
+    <div class="section-label">HiStorky</div>
+    <h2 class="section-title">Legendy, ktoré sa stali</h2>
+    <p class="section-desc">Príbehy, na ktoré sa nezabúda. Aspoň nie hneď.</p>
 
-    <div class="chata-grid">
-      <ul class="chata-info-list">
-        <li>
-          <div class="chata-icon">📍</div>
-          <div>
-            <strong>Poloha</strong>
-            <span>Slovensko — presná adresa na požiadanie</span>
-          </div>
-        </li>
-        <li>
-          <div class="chata-icon">🛏️</div>
-          <div>
-            <strong>Kapacita</strong>
-            <span>Dostatok miesta pre celú partu + neočakávaných hostí</span>
-          </div>
-        </li>
-        <li>
-          <div class="chata-icon">🔥</div>
-          <div>
-            <strong>Vybavenie</strong>
-            <span>Krb, gril, kuchyňa, terasa — čo srdce si žiada</span>
-          </div>
-        </li>
-        <li>
-          <div class="chata-icon">📅</div>
-          <div>
-            <strong>Rezervácia</strong>
-            <span>Napíšte nám cez kontaktný formulár alebo priamo</span>
-          </div>
-        </li>
-        <li>
-          <div class="chata-icon">🚗</div>
-          <div>
-            <strong>Doprava</strong>
-            <span>Dostupné autom, súradnice dostanete po potvrdení</span>
-          </div>
-        </li>
-      </ul>
+    <div class="historky-grid">
+      <div class="historky-card">
+        <div class="historky-card-icon">📻</div>
+        <div class="historky-card-body">
+          <h3>Nelegálne napojenie na internátny rozhlas</h3>
+          <p>Keď oficiálne kanály nestačia, mufloni si nájdu vlastnú cestu. Internátny rozhlas sa stal na chvíľu naším. Správa sa šírila rýchlejšie ako reakcia vedenia.</p>
+        </div>
+      </div>
 
-      <div class="chata-map">
-        <span>🗺️</span>
-        Mapa / fotky dostupné po prihlásení
+      <div class="historky-card">
+        <div class="historky-card-icon">💦</div>
+        <div class="historky-card-body">
+          <h3>Vodné pištoľky</h3>
+          <p>Klasický letný deň, ktorý prerástol do niečoho väčšieho. Nikto nebol suchý, nikto neľutoval. Niektoré legendy začínajú práve takto.</p>
+        </div>
+      </div>
+
+      <div class="historky-card">
+        <div class="historky-card-icon">🎬</div>
+        <div class="historky-card-body">
+          <h3>Kauza YouTube kanál Muflon Production</h3>
+          <p>Bol plán. Bol kanál. Boli nápady. Čo presne sa stalo potom — to je téma na dlhý večer pri ohníku.</p>
+        </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ── CHATA ── -->
+<section id="chata-roky">
+  <div class="container">
+    <div class="section-label">Chata</div>
+    <h2 class="section-title">Rok čo rok</h2>
+    <p class="section-desc">Každý výjazd má svoju históriu. Tu sú všetky.</p>
+
+    <div class="chata-slider-wrapper">
+      <button class="chata-slider-btn chata-slider-prev" aria-label="Predchádzajúci rok">&#8592;</button>
+      <div class="chata-slider-viewport">
+        <div class="chata-roky-grid">
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2007</div>
+          <p>Prvá chata. Začiatok tradície, ktorá trvá dodnes.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2008</div>
+          <p>Druhý výjazd, prvé pravidlá. Väčšina sa nedodržala.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2009</div>
+          <p>Počasie neprialo, nálada áno.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2010</div>
+          <p>Jubilejný štvrtý rok. Oslavovalo sa dôstojne.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2011</div>
+          <p>Nové tváre, staré zvyky.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2012</div>
+          <p>Rok, na ktorý sa spomína s úsmevom a bez detailov.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2013</div>
+          <p>Klasika v plnej sile. Ohník, gitara, dlhá noc.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2014</div>
+          <p>Prvý výjazd s autom navyše. Logistika = chaos.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2015</div>
+          <p>Rekordný počet účastníkov. Spánok bol luxus.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2016</div>
+          <p>Desiate výročie. Niektorí si to pamätajú.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2017</div>
+          <p>Dážď nevadil. Strecha vydržala, nálada tiež.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2018</div>
+          <p>Posledný rok pred érou Muflon Production 2.0.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2019</div>
+          <p>Vznik Muflon Production v novej podobe. Historický rok.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2020</div>
+          <p>Pandémia skúšala. Mufloni vydržali. Chata bola.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2021</div>
+          <p>Konečne vonku. Sloboda chutila lepšie ako kedykoľvek.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2022</div>
+          <p>Štandardná výnimočnosť. Ako každý rok.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2023</div>
+          <p>Nové miesto, starí ľudia, nezabudnuteľná atmosféra.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2024</div>
+          <p>Ďalší rok do kroniky. Detaily pri ohníku.</p>
+        </div>
+      </div>
+
+      <div class="chata-rok-card">
+        <div class="chata-rok-foto">🏔️</div>
+        <div class="chata-rok-body">
+          <div class="chata-rok-year">2025</div>
+          <p>Najnovší výjazd. Legenda sa píše ďalej.</p>
+        </div>
+      </div>
+
+        </div>
+      </div>
+      <button class="chata-slider-btn chata-slider-next" aria-label="Nasledujúci rok">&#8594;</button>
+    </div>
+    <div class="chata-slider-dots"></div>
   </div>
 </section>
 
@@ -250,7 +429,8 @@
 <!-- ── FOOTER ── -->
 <footer>
   <div class="footer-logo">Muflon <span>Production</span></div>
-  <p>© 2023 by muflon production &nbsp;·&nbsp; Všetky práva vyhradené (alebo možno nie)</p>
+  <p>© 2026 by muflon production &nbsp;·&nbsp; Všetky práva vyhradené (alebo možno nie)</p>
+  <p style="margin-top:8px;">Táto stránka nepoužíva 🍪</p>
 </footer>
 
 <script>
@@ -271,6 +451,7 @@
     hamburger.classList.remove('open');
     navLinks.classList.remove('open');
     overlay.classList.remove('visible');
+    document.body.classList.remove('menu-open');
     hamburger.setAttribute('aria-expanded', 'false');
   }
 
@@ -278,6 +459,7 @@
     const isOpen = navLinks.classList.toggle('open');
     hamburger.classList.toggle('open', isOpen);
     overlay.classList.toggle('visible', isOpen);
+    document.body.classList.toggle('menu-open', isOpen);
     hamburger.setAttribute('aria-expanded', isOpen);
   });
 
@@ -299,6 +481,100 @@
   }, { threshold: 0.4 });
 
   sections.forEach(s => observer.observe(s));
+
+  // Počítadlá hero stats
+  function animateCounter(el, target, duration) {
+    const isPercent = target.toString().includes('%');
+    const num = parseInt(target);
+    const start = performance.now();
+    function step(now) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const value = Math.round(eased * num);
+      el.textContent = isPercent ? value + '%' : value;
+      if (progress < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  const heroStats = document.querySelector('.hero-stats');
+  let countersDone = false;
+  const statsObserver = new IntersectionObserver(entries => {
+    if (entries[0].isIntersecting && !countersDone) {
+      countersDone = true;
+      document.querySelectorAll('.hero-stat-num').forEach(el => {
+        const val = el.textContent.trim();
+        if (val === '∞') return;
+        animateCounter(el, val, 1800);
+      });
+    }
+  }, { threshold: 0.5 });
+  if (heroStats) statsObserver.observe(heroStats);
+
+  // Chata slider
+  (function () {
+    const track = document.querySelector('.chata-roky-grid');
+    const cards = Array.from(track.children);
+    const prevBtn = document.querySelector('.chata-slider-prev');
+    const nextBtn = document.querySelector('.chata-slider-next');
+    const dotsContainer = document.querySelector('.chata-slider-dots');
+
+    let current = 0;
+
+    function visibleCount() {
+      return window.innerWidth <= 768 ? 1 : 4;
+    }
+
+    function maxIndex() {
+      return cards.length - visibleCount();
+    }
+
+    function cardWidth() {
+      return cards[0].getBoundingClientRect().width + 20;
+    }
+
+    function buildDots() {
+      dotsContainer.innerHTML = '';
+      const count = maxIndex() + 1;
+      for (let i = 0; i <= maxIndex(); i++) {
+        const dot = document.createElement('button');
+        dot.className = 'chata-slider-dot' + (i === current ? ' active' : '');
+        dot.addEventListener('click', () => goTo(i));
+        dotsContainer.appendChild(dot);
+      }
+    }
+
+    function updateDots() {
+      dotsContainer.querySelectorAll('.chata-slider-dot').forEach((d, i) => {
+        d.classList.toggle('active', i === current);
+      });
+    }
+
+    function goTo(index) {
+      current = Math.max(0, Math.min(index, maxIndex()));
+      track.style.transform = `translateX(-${current * cardWidth()}px)`;
+      prevBtn.disabled = current === 0;
+      nextBtn.disabled = current === maxIndex();
+      updateDots();
+    }
+
+    prevBtn.addEventListener('click', () => goTo(current - 1));
+    nextBtn.addEventListener('click', () => goTo(current + 1));
+
+    // Touch swipe
+    let touchStartX = 0;
+    track.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
+    track.addEventListener('touchend', e => {
+      const diff = touchStartX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) goTo(current + (diff > 0 ? 1 : -1));
+    });
+
+    window.addEventListener('resize', () => { buildDots(); goTo(Math.min(current, maxIndex())); });
+
+    buildDots();
+    goTo(0);
+  })();
 </script>
 
 </body>
