@@ -281,6 +281,20 @@ section { padding: 100px 24px; }
   border: 2px solid var(--bg);
 }
 
+.timeline-item-right {
+  text-align: right;
+  padding-left: 0;
+  padding-right: 20px;
+  border-left: none;
+  border-right: 2px solid var(--border);
+  margin-left: 0;
+}
+
+.timeline-item-right::before {
+  left: auto;
+  right: -27px;
+}
+
 .timeline-year {
   font-size: 0.78rem; font-weight: 700;
   letter-spacing: 0.15em; text-transform: uppercase;
