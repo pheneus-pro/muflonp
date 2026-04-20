@@ -38,28 +38,6 @@
     <span class="highlight">Muflon</span> Production
   </h1>
 
-  <div class="hero-stats">
-    <div class="hero-stat">
-      <div class="hero-stat-num">2006</div>
-      <div class="hero-stat-label">Rok vzniku</div>
-    </div>
-    <div class="hero-stat-divider"></div>
-    <div class="hero-stat">
-      <div class="hero-stat-num">17</div>
-      <div class="hero-stat-label">Počet chát</div>
-    </div>
-    <div class="hero-stat-divider"></div>
-    <div class="hero-stat">
-      <div class="hero-stat-num">100%</div>
-      <div class="hero-stat-label">Zábavy</div>
-    </div>
-    <div class="hero-stat-divider"></div>
-    <div class="hero-stat">
-      <div class="hero-stat-num">∞</div>
-      <div class="hero-stat-label">Spomienok</div>
-    </div>
-  </div>
-
   <div class="hero-btns">
     <a class="btn btn-outline" href="#news">👇</a>
   </div>
@@ -69,16 +47,16 @@
 <section id="news">
   <div class="container">
     <div class="section-label">Novinky</div>
-    <h2 class="section-title">Čo sa deje u muflonov</h2>
+    <h2 class="section-title">Coška vyrucilo z miešačky</h2>
     <p class="section-desc">Najnovšie správy, akcie a výčiny z nášho kolektívu.</p>
 
     <div class="news-grid">
       <div class="news-card">
-        <div class="news-card-img">🏔️</div>
+        <div class="news-card-img">🎆</div>
         <div class="news-card-body">
-          <div class="news-tag">Akcia &bull; Jún 2025</div>
-          <h3>Letný výjazd na chatu</h3>
-          <p>Klasika, ktorá sa opakuje každý rok. Ohník, gitara a nekonečné zásoby piva.</p>
+          <div class="news-tag">Akcia &bull; August 2026</div>
+          <h3>Chata 2026 rezervovaná</h3>
+          <p>Klasika, ktorá sa koná každý rok, tento raz s vysokou účasťou.</p>
         </div>
       </div>
       <div class="news-card">
@@ -107,7 +85,7 @@
     <div class="about-grid">
       <div>
         <div class="section-label">O nás</div>
-        <h2 class="section-title">Kto sú mufloni?</h2>
+        <h2 class="section-title">Kto sme?</h2>
         <p class="section-desc">
           Muflon Production je parta kamarátov, ktorá sa baví, robí muziku, organizuje výlety
           a vymýšľa nezmysly. Spojuje nás láska k horám, dobrej hudbe a ešte lepšej spoločnosti.
@@ -116,8 +94,6 @@
           Vznikli sme organicky — zo spoločných chvíľ, chatových nocí a tých momentov,
           kedy sa zo zábavy stane tradícia. A tradícia je zákon.
         </p>
-        <a class="btn" href="#kontakt">Pridaj sa k nám</a>
-
         <div class="about-timeline">
           <div class="timeline-item">
             <div class="timeline-year">2004</div>
@@ -133,27 +109,31 @@
           </div>
         </div>
 
-        <div class="about-stats">
-          <div class="stat">
-            <div class="stat-num">2019</div>
-            <div class="stat-label">Rok vzniku</div>
+        <div class="hero-stats" style="margin-top: 32px;">
+          <div class="hero-stat">
+            <div class="hero-stat-num">2006</div>
+            <div class="hero-stat-label">Rok vzniku</div>
           </div>
-          <div class="stat">
-            <div class="stat-num">∞</div>
-            <div class="stat-label">Spomienok</div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">17</div>
+            <div class="hero-stat-label">Počet chát</div>
           </div>
-          <div class="stat">
-            <div class="stat-num">1</div>
-            <div class="stat-label">Chata</div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">100%</div>
+            <div class="hero-stat-label">Zábavy</div>
           </div>
-          <div class="stat">
-            <div class="stat-num">100%</div>
-            <div class="stat-label">Zábavy</div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <div class="hero-stat-num">∞</div>
+            <div class="hero-stat-label">Spomienok</div>
           </div>
         </div>
+
       </div>
 
-      <div class="about-visual">🐑</div>
+      <div class="about-visual"><img src="wall_ai.png" alt="Muflon Production" /></div>
     </div>
   </div>
 </section>
@@ -369,56 +349,30 @@
 <section id="kontakt">
   <div class="container">
     <div class="section-label">Kontakt</div>
-    <h2 class="section-title">Napíš nám</h2>
-    <p class="section-desc">RSVP, otázky, nápady — sme tu.</p>
+    <h2 class="section-title">Vyskytujeme sa</h2>
+    <p class="section-desc">Kontakt a naše legendárne videjká</p>
 
     <div class="contact-grid">
-      <form onsubmit="handleSubmit(event)">
-        <div class="form-group">
-          <label for="name">Meno</label>
-          <input type="text" id="name" placeholder="Tvoje meno" required />
-        </div>
-        <div class="form-group">
-          <label for="email">E-mail</label>
-          <input type="email" id="email" placeholder="tvoj@email.sk" required />
-        </div>
-        <div class="form-group">
-          <label for="msg">Správa</label>
-          <textarea id="msg" placeholder="Čo chceš odkázať muflonám?"></textarea>
-        </div>
-        <button type="submit" class="btn">Odoslať</button>
-        <p id="form-status" style="margin-top:12px; color:var(--accent); font-size:0.9rem; display:none;">
-          Správa odoslaná! Ozveme sa. 🐑
-        </p>
-      </form>
-
       <div class="contact-info">
         <div class="contact-item">
           <div class="contact-item-icon">📧</div>
           <div>
             <strong>E-mail</strong>
-            <span>muflonproduction@email.sk</span>
+            <a href="mailto:muflon.production@gmail.com" style="color:var(--accent);">muflon.production@gmail.com</a>
           </div>
         </div>
         <div class="contact-item">
-          <div class="contact-item-icon">📱</div>
+          <div class="contact-item-icon">▶️</div>
           <div>
-            <strong>Sociálne siete</strong>
-            <span>Sleduj nás — @muflonproduction</span>
+            <strong>YouTube</strong>
+            <a href="https://www.youtube.com/muflonp" target="_blank" rel="noopener" style="color:var(--accent);">youtube.com/muflonp</a>
           </div>
         </div>
         <div class="contact-item">
-          <div class="contact-item-icon">📍</div>
+          <div class="contact-item-icon">🏠</div>
           <div>
-            <strong>Sídlo</strong>
-            <span>Slovensko, zvyšok je tajomstvo</span>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-item-icon">🕐</div>
-          <div>
-            <strong>Dostupnosť</strong>
-            <span>Kedykoľvek — sme nočné vtáky</span>
+            <strong>Adresa</strong>
+            <span>Raz ročne na známom mieste</span>
           </div>
         </div>
       </div>
@@ -434,14 +388,6 @@
 </footer>
 
 <script>
-  function handleSubmit(e) {
-    e.preventDefault();
-    const status = document.getElementById('form-status');
-    status.style.display = 'block';
-    e.target.reset();
-    setTimeout(() => { status.style.display = 'none'; }, 5000);
-  }
-
   // Hamburger menu
   const hamburger = document.querySelector('.nav-hamburger');
   const navLinks = document.querySelector('.nav-links');
