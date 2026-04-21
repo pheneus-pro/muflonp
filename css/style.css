@@ -211,10 +211,14 @@ section { padding: 100px 24px; }
 }
 
 .news-card-img {
-  width: 100%; height: 180px; object-fit: cover;
+  width: 100%; height: 180px;
   background: var(--surface2);
   display: flex; align-items: center; justify-content: center;
-  font-size: 3rem;
+  font-size: 3rem; overflow: hidden;
+}
+
+.news-card-img img {
+  width: 100%; height: 100%; object-fit: cover;
 }
 
 .news-card-body { padding: 20px 22px 24px; }
@@ -350,7 +354,11 @@ section { padding: 100px 24px; }
   width: 100%; height: 140px;
   background: var(--surface2);
   display: flex; align-items: center; justify-content: center;
-  font-size: 3.5rem;
+  font-size: 3.5rem; overflow: hidden;
+}
+
+.historky-card-icon img {
+  width: 100%; height: 100%; object-fit: cover;
 }
 
 .historky-card-body { padding: 22px 24px 28px; }
@@ -501,14 +509,18 @@ input:focus, textarea:focus { border-color: var(--accent); }
 
 textarea { min-height: 120px; resize: vertical; }
 
-.contact-info { display: flex; flex-direction: row; gap: 24px; }
+.contact-info {
+  display: flex; flex-direction: row; gap: 16px;
+  justify-content: center; flex-wrap: wrap;
+}
 
 .contact-item {
-  display: flex; flex-direction: column;
+  display: flex; flex-direction: row; align-items: center; gap: 20px;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 16px;
-  overflow: hidden;
+  padding: 20px 32px;
+  width: 100%; max-width: 480px;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -518,14 +530,14 @@ textarea { min-height: 120px; resize: vertical; }
 }
 
 .contact-item-icon {
-  width: 100%; height: 180px;
+  width: 52px; height: 52px; flex-shrink: 0;
   background: var(--surface2);
+  border-radius: 12px;
   display: flex; align-items: center; justify-content: center;
-  font-size: 3.5rem;
+  font-size: 1.6rem;
 }
 
-.contact-item > div:last-child { padding: 22px 24px 28px; }
-.contact-item strong { display: block; margin-bottom: 4px; font-size: 1.05rem; }
+.contact-item strong { display: block; margin-bottom: 2px; font-size: 1.05rem; }
 .contact-item span, .contact-item a { color: var(--muted); font-size: 0.93rem; }
 
 /* ── FOOTER ──────────────────────────────────────── */
@@ -614,6 +626,8 @@ footer p { color: var(--muted); font-size: 0.88rem; }
 
 /* ── MOBILE ──────────────────────────────────────── */
 @media (max-width: 768px) {
+  .hero-stats { display: none; }
+
   nav { padding: 0 20px; }
 
   .nav-hamburger { display: flex; }
