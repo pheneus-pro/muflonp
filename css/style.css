@@ -491,7 +491,7 @@ section { padding: 100px 24px; }
 }
 
 .contact-logo > img:first-child {
-  width: 140px; height: 140px; object-fit: contain;
+  width: 180px; height: 180px; object-fit: contain;
   opacity: 0.9;
 }
 
@@ -581,7 +581,7 @@ textarea { min-height: 120px; resize: vertical; }
 footer {
   background: var(--surface);
   border-top: 1px solid var(--border);
-  padding: 40px 24px;
+  padding: 16px 24px;
   text-align: center;
 }
 
@@ -590,7 +590,7 @@ footer {
   font-size: 1.2rem; font-weight: normal;
   letter-spacing: 0.1em; text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 .footer-logo span { color: var(--accent); }
