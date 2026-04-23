@@ -4,7 +4,21 @@
       "WebFetch(domain:pheneus.wixsite.com)",
       "Bash(node -e \"console.log\\('node ok'\\)\")",
       "Bash(node *)",
-      "Bash(npm install *)"
+      "Bash(npm install *)",
+      "Bash(python -c \"import fonttools\")",
+      "Bash(python3 -c \"import fonttools\")",
+      "Bash(pip show *)",
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(py *)",
+      "Bash(where python*)",
+      "Bash(C:\\\\Users\\\\anton\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe *)",
+      "PowerShell(& \"C:\\\\Users\\\\anton\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -m fonttools ttLib.woff2 compress fonts/84rock.ttf -o fonts/84rock.woff2 2>&1)",
+      "PowerShell(& \"C:\\\\Users\\\\anton\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -m pip install fonttools brotli 2>&1 | Select-String \"Successfully|already\")",
+      "PowerShell(& \"C:\\\\Users\\\\anton\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -c \"import fonttools; print\\(fonttools.__version__\\)\")",
+      "PowerShell(& \"C:\\\\Users\\\\anton\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -m pip show fonttools 2>&1 | Select-String \"Location\")",
+      "PowerShell(& \"C:\\\\Users\\\\anton\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -c \"import sys; print\\(sys.path\\)\")",
+      "PowerShell(& \"C:\\\\Users\\\\anton\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -c \"from fontTools.ttLib.woff2 import compress; compress\\('fonts/84rock.ttf', 'fonts/84rock.woff2'\\)\")"
     ]
   }
 }
