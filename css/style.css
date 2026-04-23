@@ -76,7 +76,7 @@ nav {
 /* ── HERO ────────────────────────────────────────── */
 .hero-parallax {
   position: absolute; inset: 0;
-  background: url('../muflons.png') center center / cover no-repeat fixed;
+  background: url('../muflons.jpg') center center / cover no-repeat fixed;
   z-index: 0;
 }
 
