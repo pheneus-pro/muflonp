@@ -18,7 +18,11 @@
       "PowerShell(& \"C:\\\\Users\\\\anton\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -c \"import fonttools; print\\(fonttools.__version__\\)\")",
       "PowerShell(& \"C:\\\\Users\\\\anton\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -m pip show fonttools 2>&1 | Select-String \"Location\")",
       "PowerShell(& \"C:\\\\Users\\\\anton\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -c \"import sys; print\\(sys.path\\)\")",
-      "PowerShell(& \"C:\\\\Users\\\\anton\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -c \"from fontTools.ttLib.woff2 import compress; compress\\('fonts/84rock.ttf', 'fonts/84rock.woff2'\\)\")"
+      "PowerShell(& \"C:\\\\Users\\\\anton\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe\" -c \"from fontTools.ttLib.woff2 import compress; compress\\('fonts/84rock.ttf', 'fonts/84rock.woff2'\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 *)",
+      "PowerShell(Rename-Item *)",
+      "PowerShell(Get-ChildItem -LiteralPath \"C:\\\\Users\\\\anton\\\\projects\\\\muflonp\\\\img\\\\legends\" -Force | ForEach-Object { \"$\\($_.Name\\) | $\\($_.Length\\)\" })"
     ]
   }
 }
